@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Vibes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222; 
+            color: #eee; 
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #ccc; 
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        }
+        .lyrics {
+            margin-top: 20px;
+            font-style: italic;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #333; /* Darker background for lyrics */
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            border-radius: 10px;
+        }
+        .lyrics h2 {
+            border-bottom: 1px solid #555; /* Lighter border color */
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            color: #ccc; /* Light header text color */
+        }
+        .lyrics p {
+            line-height: 1.6;
+            color: #eee; /* Light text color */
+        }
+        audio {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Vibes</h1>
+    <p>Listen</p>
+
+    <audio controls autoplay loop>
+        <source src="80's makeout session.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="lyrics">
+        <h2>Lyrics</h2>
+        <p id="lyrics-display">
+            Quién lo diría<br>
+            Que se podría hacer el amor por telepatía<br>
+            La luna está llena, mi cama vacía<br>
+            Lo que yo te haría<br>
+            Si te tuviera de frente, la mente te la volaría<br>
+            De noche y de día, de noche y de día<br><br>
+            You know I'm just a flight away<br>
+            If you want it, you can take a private plane<br>
+            A kilómetros estamos conectando<br>
+            Y me prendes aunque no me estés tocando<br>
+            You know I got a lot to say<br>
+            All these voices in the background of my brain<br>
+            Y me dicen todo lo que estás pensando<br>
+            Me imagino lo que ya estás maquinando<br><br>
+            Quién lo diría<br>
+            Que se podría hacer el amor por telepatía<br>
+            La luna está llena, mi cama vacía<br>
+            Lo que yo te haría<br>
+            Si te tuviera de frente, la mente te la volaría<br>
+            De noche y de día, de noche y de día<br><br>
+            You know that I can see right through you<br>
+            I can read your mind<br>
+            I can read your mind<br>
+            What you want to do?<br>
+            It's written all over your face times two<br>
+            'Cause I can read your mind<br>
+            I can read your mind<br>
+            I can hear your thoughts like a melody<br>
+            Listen while you talk when you're fast asleep<br>
+            You stay on the phone just to hear me breathe<br>
+            On repeat<br><br>
+            Quién lo diría<br>
+            Que se podría hacer el amor por telepatía<br>
+            La luna está llena, mi cama vacía<br>
+            Lo que yo te haría<br>
+            Si te tuviera de frente, la mente te la volaría<br>
+            De noche y de día, de noche y de día <br>
+            (You know I got a lot to say <br>
+All these voices in the background of my brain)
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                alert('You pressed Enter! Enjoy the song!');
+            }
+        });
+    </script>
+</body>
+</html>
